@@ -15,4 +15,5 @@ Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-mu
 
 
 * `Demo` Working of the app with cocoapod directry
-https://github.com/user-attachments/assets/66d1d2b3-5b70-4a61-a6e1-210859574087
+https://github.com/user-attachments/assets/295d2e82-ae21-49d0-9bf7-86fe67bed5d2
+
