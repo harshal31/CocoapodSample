@@ -6,4 +6,4 @@ interface Platform {
 
 expect fun getPlatform(): Platform
 
-expect fun parsePhoneNumber(value: Double): String
+expect fun parseTimeInString(value: Double): String

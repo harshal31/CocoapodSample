@@ -7,6 +7,6 @@ class AndroidPlatform : Platform {
 }
 
 actual fun getPlatform(): Platform = AndroidPlatform()
-actual fun parsePhoneNumber(value: Double): String {
+actual fun parseTimeInString(value: Double): String {
     return "1 minute"
 }

@@ -25,14 +25,14 @@ fun App() {
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
             Button(onClick = {
                 showContent = !showContent
-                println("number is ${parsePhoneNumber(input)}")
+                println("number is ${parseTimeInString(input)}")
             }) {
                 Text("Click me!")
             }
             AnimatedVisibility(showContent) {
                 Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
                     Image(painterResource(Res.drawable.compose_multiplatform), null)
-                    Text("Compose: ${parsePhoneNumber(input)}")
+                    Text("Compose: ${parseTimeInString(input)}")
                 }
             }
         }

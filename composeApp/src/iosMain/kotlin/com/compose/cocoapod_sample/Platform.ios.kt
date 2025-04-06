@@ -14,7 +14,7 @@ class IOSPlatform : Platform {
 actual fun getPlatform(): Platform = IOSPlatform()
 
 @OptIn(ExperimentalForeignApi::class)
-actual fun parsePhoneNumber(value: Double): String {
+actual fun parseTimeInString(value: Double): String {
     val formatter = TTTTimeIntervalFormatter()
     return formatter.stringForTimeInterval(value) ?: "Invalid"
 }
