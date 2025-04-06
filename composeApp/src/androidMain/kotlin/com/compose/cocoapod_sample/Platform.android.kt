@@ -8,5 +8,5 @@ class AndroidPlatform : Platform {
 
 actual fun getPlatform(): Platform = AndroidPlatform()
 actual fun parsePhoneNumber(value: Double): String {
-    TODO("Not yet implemented")
+    return "1 minute"
 }
